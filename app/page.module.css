@@ -27,6 +27,17 @@
   }
 }
 
+.docsLayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.docsContent {
+  margin-left: 220px;
+  padding: 2rem 3rem;
+  flex: 1;
+}
+
 .main {
   display: flex;
   flex-direction: column;
