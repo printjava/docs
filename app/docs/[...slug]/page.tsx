@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 
 const docPages: Record<string, any> = {
-  introduction: dynamic(() => import("../introduction")),
   "getting-started": dynamic(() => import("../getting-started")),
 };
 
@@ -13,7 +12,6 @@ export default function DocsPage({ params }: { params: { slug: string[] } }) {
 
 export async function generateStaticParams() {
   return [
-    { slug: ["introduction"] },
     { slug: ["getting-started"] },
   ];
 }

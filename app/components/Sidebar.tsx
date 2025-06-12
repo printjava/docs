@@ -8,7 +8,6 @@ const docs = [
 	{
 		section: "Getting Started",
 		items: [
-			{ name: "Introduction", path: "/docs/introduction" },
 			{ name: "Getting Started", path: "/docs/getting-started" },
 		],
 	},
